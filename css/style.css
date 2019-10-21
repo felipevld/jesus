@@ -1,0 +1,79 @@
+.btn:focus, .btn::-moz-focus-inner{
+  outline:none;
+  border:none;
+}
+.btn{
+  font-family: arial;
+  font-size:14px;
+  text-transform: uppercase;
+  font-weight:700;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+}
+
+.btn-red{
+  background:red;
+  color:#fff;
+  box-shadow:0 5px 0 #d20000;
+}
+.btn-red:hover{
+  background:#d20000;
+  box-shadow:0 5px 0 #b00000;
+}
+
+.btn-red:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
+
+img {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  opacity: 0.5;
+}
+
+audio{
+  width: 10%;
+  height: 3%;
+  margin: auto;
+  position: absolute;
+  top: 325px; left: 325px; bottom: 1; right: 325px;
+ }
+
+h1{
+  color: white;
+  background: #A9A9A9;
+  opacity: 0.3;
+  border-radius: 50%;
+
+}
+
+#overviewtext4 img {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 300px;
+  left: -500px;
+  opacity: 1;
+  right: 700px;
+}
+
+#overviewtext5 img {
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: -30px;
+  left: 1150px;
+  opacity: 1;
+  right: 800px;
+}
+
+p{
+  color: white;
+  text-align: center;
+}
